@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Is is New Year? </title>
+        <style>
+            html, body{
+                height: 100%;
+            }
+            body {
+                text-align: center;
+            }
+            h1 {
+                display: inline-block;
+                margin-top: 200px;
+                font-weight: bold;
+                font-size: 120pt;
+                font-family: Arial, sans-serif;
+                text-decoration: none;
+                color: black;
+                cursor: default;
+            }
+        </style>
+    </head>
+    <body>
+        {% if new_year %}
+            <h1> Yes! Happy New Year! </h1>
+        {% else %}
+            <h1> NO </h1>
+        {% endif %}
+    </body>
+</html>
