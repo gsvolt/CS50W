@@ -6,3 +6,8 @@ app = Flask(__name__)
 def index():
     headline = "Hello, World!"
     return render_template("index.html", headline=headline)
+
+@app.route("/bye")
+def bye():
+    headline = "Goodbye!"
+    return render_template("index.html", headline=headline)
