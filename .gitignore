@@ -1,5 +1,6 @@
 # G edit
 .vscode
+*flash_session*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
